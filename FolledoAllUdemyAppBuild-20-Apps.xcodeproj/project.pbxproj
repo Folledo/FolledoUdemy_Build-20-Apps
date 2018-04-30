@@ -12,6 +12,8 @@
 		CD50A2312092D67600EE5E0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD50A22F2092D67600EE5E0F /* Main.storyboard */; };
 		CD50A2332092D67C00EE5E0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD50A2322092D67C00EE5E0F /* Assets.xcassets */; };
 		CD50A2362092D67C00EE5E0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD50A2342092D67C00EE5E0F /* LaunchScreen.storyboard */; };
+		CD50A23E2092F7AB00EE5E0F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD50A23D2092F7AB00EE5E0F /* Info.plist */; };
+		CDFE72292096B5E4000D1848 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFE72282096B5E4000D1848 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +23,8 @@
 		CD50A2302092D67600EE5E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD50A2322092D67C00EE5E0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD50A2352092D67C00EE5E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CD50A2372092D67C00EE5E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD50A23D2092F7AB00EE5E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFE72282096B5E4000D1848 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFE72292096B5E4000D1848 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +44,7 @@
 			children = (
 				CD50A22A2092D67600EE5E0F /* FolledoAllUdemyAppBuild-20-Apps */,
 				CD50A2292092D67600EE5E0F /* Products */,
+				CDFE72272096B5E4000D1848 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,9 +64,17 @@
 				CD50A22F2092D67600EE5E0F /* Main.storyboard */,
 				CD50A2322092D67C00EE5E0F /* Assets.xcassets */,
 				CD50A2342092D67C00EE5E0F /* LaunchScreen.storyboard */,
-				CD50A2372092D67C00EE5E0F /* Info.plist */,
+				CD50A23D2092F7AB00EE5E0F /* Info.plist */,
 			);
 			path = "FolledoAllUdemyAppBuild-20-Apps";
+			sourceTree = "<group>";
+		};
+		CDFE72272096B5E4000D1848 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE72282096B5E4000D1848 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD50A23E2092F7AB00EE5E0F /* Info.plist in Resources */,
 				CD50A2362092D67C00EE5E0F /* LaunchScreen.storyboard in Resources */,
 				CD50A2332092D67C00EE5E0F /* Assets.xcassets in Resources */,
 				CD50A2312092D67600EE5E0F /* Main.storyboard in Resources */,
@@ -287,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "FolledoSwag.FolledoAllUdemyAppBuild-20-Apps";
+				PRODUCT_BUNDLE_IDENTIFIER = "FolledoUdemy-Build-20-Apps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "FolledoSwag.FolledoAllUdemyAppBuild-20-Apps";
+				PRODUCT_BUNDLE_IDENTIFIER = "FolledoUdemy-Build-20-Apps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
