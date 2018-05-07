@@ -30,7 +30,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
     //these are moved to didUpdateLocations so the user will be the center of the map
         let latitude: CLLocationDegrees = 40.733956
-        let longitude: CLLocationDegrees = -75.068171
+        let longitude: CLLocationDegrees = -74.068171
         let latDelta: CLLocationDegrees = 0.03
         let lonDelta: CLLocationDegrees = 0.03
         let span: MKCoordinateSpan = MKCoordinateSpan(latitudeDelta: latDelta, longitudeDelta: lonDelta) //combination of latDelta and lonDelta
